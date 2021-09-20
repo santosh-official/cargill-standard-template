@@ -1,0 +1,7 @@
+package com.cargill.repository;
+
+import com.cargill.entity.Employee;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EmployeeRepository extends JpaRepository<Employee,Integer> {
+}
